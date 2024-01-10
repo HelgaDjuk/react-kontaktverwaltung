@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+  overflow: hidden;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #E9F2F0;
+  box-sizing: border-box;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper{
   display: flex;
   flex-direction: column;
+  gap: 3rem;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width:90%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  background-color:#CDD9E0;
+
+}
+.wrapper label{
+  margin-right: 1rem;
+  font-size: 110%;
+}
+.wrapper label input{
+  margin-left: 0.2rem;
+ 
+  font-size: 100%;
+}
+.btn{
+  padding: 0.5rem;
+  font-size: 110%;
   color: white;
+  border: none;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.eingabe-btn{
+  background-color: #1E304B;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn-loeschen{
+  background-color: #E27861;
+}
+.btn-loeschen:hover{
+  background-color:#e48a76;
+  
+}
+.eingabe-btn:hover{
+  background-color: #31425c;
+  cursor: pointer;
+}
+.wrapper label:last-child{
+  margin-right: 0%;
+}
+  h1 {
+  font-size: 300%;
+  color: #1E304B;
   }
-  to {
-    transform: rotate(360deg);
+  ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    list-style-type: none;
+  }
+  ul li{
+    background-color: #1E304B;
+   width: 100%;
+   color: white;
+  }
+  .ausgabe{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.3rem;
+  }
+  .ausgabe-item:last-child{
+    margin-bottom: 05rem;
+  }
+  @media (max-width: 1200px) {
+    .wrapper{
+     padding: 2rem;
+      width: 100%;
+      gap:2rem;
+      justify-content: center;
+    }
+  
+  }
+  @media (max-width: 1000px) {
+  form{
+    font-size: 130%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .wrapper label{
+    margin-right: 1rem;
+  }
+  .ausgabe{
+    font-size: 130%;
   }
 }
+  
+
+  
