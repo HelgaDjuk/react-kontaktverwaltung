@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-kontaktverwaltung/static/css/main.030327db.css",
+    "main.js": "/react-kontaktverwaltung/static/js/main.a073451f.js",
+    "static/js/787.bb3b69f7.chunk.js": "/react-kontaktverwaltung/static/js/787.bb3b69f7.chunk.js",
+    "index.html": "/react-kontaktverwaltung/index.html",
+    "main.030327db.css.map": "/react-kontaktverwaltung/static/css/main.030327db.css.map",
+    "main.a073451f.js.map": "/react-kontaktverwaltung/static/js/main.a073451f.js.map",
+    "787.bb3b69f7.chunk.js.map": "/react-kontaktverwaltung/static/js/787.bb3b69f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.030327db.css",
+    "static/js/main.a073451f.js"
+  ]
+}
